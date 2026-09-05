@@ -1,4 +1,4 @@
-# Merchant Finance
+# MerFin
 
 An AI-powered financial dashboard and conversational copilot designed for digital merchants to identify payout shortfalls, track transaction discrepancies, and manage bank reconciliations effortlessly.
 
