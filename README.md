@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Merchant Finance Copilot
 
-## Getting Started
+An AI-powered financial dashboard and conversational copilot designed for digital merchants to identify payout shortfalls, track transaction discrepancies, and manage bank reconciliations effortlessly.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###  The Problem
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+E-commerce merchants process hundreds of transactions daily across multiple payment gateways. Manual reconciliation between gateway settlements and actual bank deposits often leads to:
+* Unnoticed payout shortfalls and missing bank transfers.
+* Hidden processor fees or unexpected dispute deductions.
+* Hours spent digging through spreadsheets during monthly closing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Merchant Finance Copilot** solves this by automatically flagging discrepancies and giving merchants an instant AI assistant to explain and resolve financial shortfalls.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### Core Features (The 3 Layers)
 
-To learn more about Next.js, take a look at the following resources:
+* **Spend Analysis & Metrics:** Real-time visibility into gross revenue, processor fees, taxes, and net payout totals.
+* **Reconciliation Engine:** Auto-detects mismatch types (`Amount Mismatch`, `Duplicate Entry`, `Missing in Bank`) with built-in interactive status workflows ("Resolve" / "Ignore").
+* **AI Financial Assistant:** Grounded conversational assistant built on Google Gemini 3.6 Flash to answer questions regarding settlements, missing funds, and payout breakdown steps.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  Tech Stack
 
-## Deploy on Vercel
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router, Server Actions, Client Components)
+* **Language:** TypeScript
+* **Styling & UI:** Tailwind CSS, Bootstrap Icons
+* **AI Model:** Google Gemini API (`@google/generative-ai` / `gemini-3.6-flash`)
+* **Markdown Rendering:** `react-markdown`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Getting Started Locally
+
+#### **1. Clone the repository**
+`git clone [https://github.com/your-username/merchant-finance-copilot.git](https://github.com/your-username/merchant-finance-copilot.git)
+cd merchant-finance-copilot`
+
+#### **2. Install Dependencies**
+`npm install`
+
+#### **3. Configure Environment Variables**
+Create a .env.local file in root directory:
+`GEMINI_API_KEY=your_gemini_api_key_here`
+
+#### **4. Run the Development Server**
+`npm run dev`
+
+Open http://localhost:3000 in your browser to view the application
+
