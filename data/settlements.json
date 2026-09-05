@@ -1,0 +1,152 @@
+[
+  {
+    "settlementId": "STL-1001",
+    "date": "2026-03-01",
+    "grossAmount": 150000.00,
+    "fees": 3000.00,
+    "tax": 540.00,
+    "netAmount": 146460.00,
+    "status": "SETTLED",
+    "transactionCount": 42
+  },
+  {
+    "settlementId": "STL-1002",
+    "date": "2026-03-02",
+    "grossAmount": 85000.00,
+    "fees": 1700.00,
+    "tax": 306.00,
+    "netAmount": 82994.00,
+    "status": "SETTLED",
+    "transactionCount": 21
+  },
+  {
+    "settlementId": "STL-1003",
+    "date": "2026-03-03",
+    "grossAmount": 210000.00,
+    "fees": 4200.00,
+    "tax": 756.00,
+    "netAmount": 205044.00,
+    "status": "SETTLED",
+    "transactionCount": 65
+  },
+  {
+    "settlementId": "STL-1004",
+    "date": "2026-03-04",
+    "grossAmount": 95000.00,
+    "fees": 1900.00,
+    "tax": 342.00,
+    "netAmount": 92758.00,
+    "status": "SETTLED",
+    "transactionCount": 28
+  },
+  {
+    "settlementId": "STL-1005",
+    "date": "2026-03-05",
+    "grossAmount": 120000.00,
+    "fees": 2400.00,
+    "tax": 432.00,
+    "netAmount": 117168.00,
+    "status": "SETTLED",
+    "transactionCount": 35
+  },
+  {
+    "settlementId": "STL-1006",
+    "date": "2026-03-06",
+    "grossAmount": 175000.00,
+    "fees": 3500.00,
+    "tax": 630.00,
+    "netAmount": 170870.00,
+    "status": "SETTLED",
+    "transactionCount": 50
+  },
+  {
+    "settlementId": "STL-1007",
+    "date": "2026-03-07",
+    "grossAmount": 64000.00,
+    "fees": 1280.00,
+    "tax": 230.40,
+    "netAmount": 62489.60,
+    "status": "SETTLED",
+    "transactionCount": 18
+  },
+  {
+    "settlementId": "STL-1008",
+    "date": "2026-03-08",
+    "grossAmount": 310000.00,
+    "fees": 6200.00,
+    "tax": 1116.00,
+    "netAmount": 302684.00,
+    "status": "SETTLED",
+    "transactionCount": 92
+  },
+  {
+    "settlementId": "STL-1009",
+    "date": "2026-03-09",
+    "grossAmount": 88000.00,
+    "fees": 1760.00,
+    "tax": 316.80,
+    "netAmount": 85923.20,
+    "status": "SETTLED",
+    "transactionCount": 24
+  },
+  {
+    "settlementId": "STL-1010",
+    "date": "2026-03-10",
+    "grossAmount": 142000.00,
+    "fees": 2840.00,
+    "tax": 511.20,
+    "netAmount": 138648.80,
+    "status": "SETTLED",
+    "transactionCount": 39
+  },
+  {
+    "settlementId": "STL-1011",
+    "date": "2026-03-11",
+    "grossAmount": 225000.00,
+    "fees": 4500.00,
+    "tax": 810.00,
+    "netAmount": 219690.00,
+    "status": "SETTLED",
+    "transactionCount": 68
+  },
+  {
+    "settlementId": "STL-1012",
+    "date": "2026-03-12",
+    "grossAmount": 53000.00,
+    "fees": 1060.00,
+    "tax": 190.80,
+    "netAmount": 51749.20,
+    "status": "SETTLED",
+    "transactionCount": 15
+  },
+  {
+    "settlementId": "STL-1013",
+    "date": "2026-03-13",
+    "grossAmount": 198000.00,
+    "fees": 3960.00,
+    "tax": 712.80,
+    "netAmount": 193327.20,
+    "status": "SETTLED",
+    "transactionCount": 58
+  },
+  {
+    "settlementId": "STL-1014",
+    "date": "2026-03-14",
+    "grossAmount": 115000.00,
+    "fees": 2300.00,
+    "tax": 414.00,
+    "netAmount": 112286.00,
+    "status": "SETTLED",
+    "transactionCount": 31
+  },
+  {
+    "settlementId": "STL-1015",
+    "date": "2026-03-15",
+    "grossAmount": 275000.00,
+    "fees": 5500.00,
+    "tax": 990.00,
+    "netAmount": 268510.00,
+    "status": "SETTLED",
+    "transactionCount": 81
+  }
+]

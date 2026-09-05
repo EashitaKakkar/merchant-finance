@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sub_01",
+    "serviceName": "AWS Cloud Services",
+    "billingCycle": "Monthly",
+    "amount": 18450,
+    "lastBilledDate": "2026-08-01",
+    "nextBillingDate": "2026-09-01",
+    "category": "Cloud Infrastructure",
+    "status": "ACTIVE",
+    "usageScore": 85
+  },
+  {
+    "id": "sub_02",
+    "serviceName": "Slack Technologies",
+    "billingCycle": "Monthly",
+    "amount": 6200,
+    "lastBilledDate": "2026-08-05",
+    "nextBillingDate": "2026-09-05",
+    "category": "SaaS & Software",
+    "status": "FLAGGED_FOR_REVIEW",
+    "usageScore": 30
+  },
+  {
+    "id": "sub_03",
+    "serviceName": "Zoom Business",
+    "billingCycle": "Monthly",
+    "amount": 2400,
+    "lastBilledDate": "2026-07-28",
+    "nextBillingDate": "2026-08-28",
+    "category": "SaaS & Software",
+    "status": "FLAGGED_FOR_REVIEW",
+    "usageScore": 12
+  }
+]

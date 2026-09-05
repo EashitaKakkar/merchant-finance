@@ -1,0 +1,38 @@
+[
+  {
+    "bankTransactionId": "BNK-8001",
+    "date": "2026-03-01",
+    "description": "PG SETTLEMENT STL-1001",
+    "creditAmount": 146460.00,
+    "debitAmount": 0,
+    "balanceAfter": 1146460.00,
+    "referenceNo": "REF-STL-1001"
+  },
+  {
+    "bankTransactionId": "BNK-8002",
+    "date": "2026-03-02",
+    "description": "PG SETTLEMENT STL-1002",
+    "creditAmount": 80994.00,
+    "debitAmount": 0,
+    "balanceAfter": 1227454.00,
+    "referenceNo": "REF-STL-1002"
+  },
+  {
+    "bankTransactionId": "BNK-8003",
+    "date": "2026-03-03",
+    "description": "PG SETTLEMENT STL-1003",
+    "creditAmount": 205044.00,
+    "debitAmount": 0,
+    "balanceAfter": 1432498.00,
+    "referenceNo": "REF-STL-1003"
+  },
+  {
+    "bankTransactionId": "BNK-8004",
+    "date": "2026-03-03",
+    "description": "DUPLICATE PG SETTLEMENT STL-1003",
+    "creditAmount": 205044.00,
+    "debitAmount": 0,
+    "balanceAfter": 1637542.00,
+    "referenceNo": "REF-STL-1003-DUP"
+  }
+]
